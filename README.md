@@ -1,4 +1,14 @@
-## 🛠️ HexaArm MEDIUM: The DIY Industrial Standard
+
+<div align="center">
+  <img src="HexaArmMedium-Solidworks.png" width="600" alt="HexaArm Medium CAD Render"/>
+</div>
+
+<h1 align="center">🛠️ HexaArm MEDIUM
+
+<div align="center">
+    <img src="https://img.shields.io/badge/Status-In--Development-blue?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/License-Open_Source-green?style=for-the-badge" alt="License">
+</div>
 
 ### **Open Source 6-Axis Manipulator**
 >
