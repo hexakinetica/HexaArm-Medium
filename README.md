@@ -7,7 +7,7 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/Status-In--Development-blue?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/License-Open_Source-green?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/License-AGPL--3.0_&_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
 </div>
 
 ### **Open Source 6-Axis Manipulator**
