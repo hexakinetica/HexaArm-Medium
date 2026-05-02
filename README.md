@@ -1,51 +1,86 @@
-
 <div align="center">
-  <img src="HexaArmMedium-Solidworks.png" width="600" alt="HexaArm Medium CAD Render"/>
+  <img src="HexaArmMedium-Solidworks.png" width="600" alt="HexaArm Medium Pro CAD Render"/>
 </div>
 
-<h1 align="center">🛠️ HexaArm MEDIUM
+<h1 align="center">HexaArm Medium Pro</h1>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Status-In--Development-blue?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/License-AGPL--3.0_&_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/Status-CAD_Ready_/_Under_Development-blue?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Type-Medium--Class_Robot_Arm-black?style=for-the-badge" alt="Type">
 </div>
 
-### **Open Source 6-Axis Manipulator**
->
-> The flagship mechanical platform of the Maker Series. Designed to bridge the gap between hobby projects and industrial reliability. Built with standard aluminum profiles and harmonic drives.
->
-#### 🚧 Status: COMING SOON (Q2 2026)
-*Release candidates are undergoing stress testing.*
+---
+
+## Medium-Class Robot Arm Platform
+
+**HexaArm Medium Pro** is the target medium-class robot arm platform of the HexaKinetica project.
+
+It defines the next step after the Mini Maker \ Pro and Hybrid validation platforms: a larger robot arm architecture built around real mechanical design, motion control, controller hardware, and operator software.
+
+This repository documents the design direction and system architecture of the Medium Pro platform.
 
 ---
 
-#### 📐 Specifications
-| Feature | Spec |
-| :--- | :--- |
-| **Payload** | 6 kg |
-| **Reach** | 1100 - 1300 mm |
-| **Drive Train** | Harmonic Drives (Sizes 14-32) |
-| **Material** | CNC Aluminum / Extrusion |
+## Project Status
 
-#### 📂 Repository Contents (Roadmap)
+**Status:** CAD ready / under development
 
-**⚠️ NOTE:** This repository contains the **Mechanical Assembly** only. For the controller, see [HexaCore](https://github.com/HexaKinetica/HexaCore)
+The mechanical concept has been developed in CAD and is used as the reference direction for the next stage of the HexaKinetica platform.
 
-#### `/mechanical`
-*   **CNC Parts:** DXF/STEP files for machining the aluminum skeleton.
-*   **Joint Modules:** Assembly guides for the 6 actuator modules (Motor + Reducer + Encoder).
-*   **Cable Chain:** Routing guides for internal cabling.
-
-#### `/docs`
-*   **Assembly Manual:** Step-by-step PDF guide.
-*   **Sourcing Guide:** Links to recommended suppliers for motors and reducers (AliExpress / Direct OEM).
+This repository is currently an overview and development reference. It is not part of the Maker series and is not positioned as a ready-to-build public hardware release at this stage.
 
 ---
 
-#### ⚡ Required Controller
-To run this arm, you need the **HexaCore** cabinet.
-👉 **Build the Controller:** [hexa-core-hardware](https://github.com/HexaKinetica/hexa-core-hardware)
+## Target Direction
+
+HexaArm Medium Pro is being developed as a larger robot arm platform connected to the HexaKinetica control ecosystem.
+
+The intended architecture includes:
+
+- medium-class robot arm mechanics
+- industrial servo-based actuation
+- EtherCAT motion control
+- external controller cabinet
+- integration with HexaCore controller architecture
+- integration with HexaStudio operator software
+- CAD-driven development workflow
 
 ---
 
-**[HexaKinetica.com](https://hexakinetica.com)**
+## Target Specifications
+
+| Feature | Target |
+|---|---|
+| **Class** | Medium robot arm platform |
+| **Payload** | ~6 kg target |
+| **Reach** | ~1100–1300 mm target |
+| **Actuation** | Industrial servo architecture |
+| **Motion Control** | EtherCAT-based |
+| **Controller** | External HexaCore cabinet |
+| **Status** | CAD concept / under development |
+
+Specifications may change during validation and prototype development.
+
+---
+
+## System Context
+
+HexaArm Medium Pro is not developed as a standalone object. It is part of the wider HexaKinetica platform.
+
+Related projects:
+
+- **[HexaCore](https://github.com/hexakinetica/HexaCore)** — controller architecture
+- **[HexaStudio](https://github.com/hexakinetica/HexaStudio)** — operator interface and simulation environment
+- **[HexaMotion](https://github.com/hexakinetica/HexaMotion)** — motion control software foundation
+- **[HexaArm Mini Maker](https://github.com/hexakinetica/HexaArm-Mini)** — open hardware desktop platform
+- **HexaArm Hybrid** — actuator and control validation platform
+
+---
+
+
+## Contact
+
+#### contact@hexakinetica.com
+
+GitHub:  [@hexakinetica](https://github.com/hexakinetica)  
+YouTube: [@Hexakinetica](https://www.youtube.com/@Hexakinetica)
