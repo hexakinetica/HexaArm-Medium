@@ -27,8 +27,7 @@ This repository documents the design direction and system architecture of the Me
 
 The mechanical concept has been developed in CAD and is used as the reference direction for the next stage of the HexaKinetica platform.
 
-This repository is currently an overview and development reference. It is not part of the Maker series and is not positioned as a ready-to-build public hardware release at this stage.
-
+This repository is currently an overview and development reference.
 ---
 
 ## Target Direction
@@ -73,7 +72,7 @@ Related projects:
 - **[HexaStudio](https://github.com/hexakinetica/HexaStudio)** — operator interface and simulation environment
 - **[HexaMotion](https://github.com/hexakinetica/HexaMotion)** — motion control software foundation
 - **[HexaArm Mini Maker](https://github.com/hexakinetica/HexaArm-Mini)** — open hardware desktop platform
-- **HexaArm Hybrid** — actuator and control validation platform
+- **[HexaArm Hybrid](https://github.com/hexakinetica/HexaArm-Hybrid)** — actuator and control validation platform
 
 ---
 
